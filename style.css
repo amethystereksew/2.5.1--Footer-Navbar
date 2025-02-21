@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    place-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    padding: 3rem;
+    gap: 1rem;
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+.container:hover{
+    transform: translateX(-10rem);
+}
+
+.container img{
+    width: 100%;
+    border-radius: 
+}
